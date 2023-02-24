@@ -11,6 +11,11 @@ import org.testng.Assert;
 import net.bytebuddy.dynamic.scaffold.TypeWriter.MethodPool.Record.ForDefinedMethod.WithAnnotationDefaultValue;
 
 public class CreateAccount {
+	
+	public void m1()
+	{
+		System.out.println("added m1 from office");
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
