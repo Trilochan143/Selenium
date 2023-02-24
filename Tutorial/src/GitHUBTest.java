@@ -7,7 +7,7 @@ public class GitHUBTest {
 	}
 	public void m2()
 	{
-		System.out.print("from m1 of office");
+		System.out.print("from m2 of office");
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
