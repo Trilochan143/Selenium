@@ -14,7 +14,8 @@ public class Base {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-
+		//deleted sysout from home
+		System.out.println("Chenged from office");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
@@ -59,5 +60,5 @@ public class Base {
 		}
 
 	}
-
+		
 }
